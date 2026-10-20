@@ -1,77 +1,100 @@
 <!DOCTYPE html>
 <html lang="ur" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دبئی چنوتی ڈیکوریٹ | Dubai Chonoti Decorate</title>
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Nastaliq Urdu",sans-serif;background:#f7f4ef;color:#222;line-height:1.8}
-header{background:linear-gradient(135deg,#151515,#6d542e);color:#fff;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:5}
-.logo{font-size:24px;font-weight:800}.logo small{display:block;font-size:11px;letter-spacing:2px;direction:ltr}
-nav a{color:#fff;text-decoration:none;margin:0 10px;font-size:15px}
-.hero{min-height:75vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 20px;background:linear-gradient(#0008,#0008),url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=80') center/cover}
-.hero h1{font-size:48px;color:#fff;margin:0 0 12px}.hero p{font-size:22px;color:#eee;max-width:750px;margin:auto}.btn{display:inline-block;margin-top:25px;padding:12px 28px;background:#c9a45c;color:#111;text-decoration:none;border-radius:30px;font-weight:bold}
-section{padding:65px 7%}h2{text-align:center;font-size:34px;margin:0 0 35px;color:#5d4525}.intro{text-align:center;max-width:850px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}.card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 8px 25px #00000012;text-align:center}.icon{font-size:42px}.card h3{color:#5d4525}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}.gallery img{width:100%;height:230px;object-fit:cover;border-radius:14px}
-.about{background:#fff}.contact{background:#171717;color:#fff;text-align:center}.contact h2{color:#d5b36d}.contact p{font-size:18px}.footer{text-align:center;padding:20px;background:#0d0d0d;color:#aaa;font-size:13px}
-@media(max-width:700px){header{display:block;text-align:center}nav{margin-top:8px}.hero h1{font-size:34px}.hero p{font-size:18px}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubai Challenge Decor | جپسم بورڈ اور فالس سیلنگ</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #151515, #333); color: #fff; padding: 40px 20px; text-align: center; border-bottom: 5px solid #ffeb3b; }
+        header h1 { font-size: 2.5rem; color: #ffeb3b; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; color: #ccc; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+        .about-section, .project-section, .gallery-section { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .about-section h2, .project-section h2, .gallery-section h2 { color: #111; margin-bottom: 15px; border-right: 5px solid #ffeb3b; padding-right: 10px; }
+        .about-section p { font-size: 1.1rem; margin-bottom: 15px; text-align: justify; }
+        .project-list { list-style: none; margin-top: 15px; }
+        .project-list li { font-size: 1.1rem; margin-bottom: 10px; padding-right: 15px; position: relative; }
+        .project-list li::before { content: "🏢"; position: absolute; right: -15px; top: 2px; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .gallery-item { background: #eee; border: 2px solid #ddd; border-radius: 8px; overflow: hidden; position: relative; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .gallery-item img { width: 100%; height: 220px; object-fit: cover; display: block; }
+        .gallery-item .img-caption { background: rgba(0, 0, 0, 0.75); color: #ffeb3b; text-align: center; padding: 8px; font-weight: bold; font-size: 0.95rem; }
+        .contact-box { background-color: #222; padding: 25px; border-radius: 8px; text-align: center; border: 2px solid #ffeb3b; margin-top: 30px; }
+        .contact-box p { color: #fff; font-size: 1.1rem; margin: 8px 0; }
+        .contact-box strong { color: #ffeb3b; }
+        footer { text-align: center; padding: 20px; background: #111; color: #aaa; font-size: 0.9rem; }
+    </style>
 </head>
 <body>
-<header>
-<div class="logo">دبئی چنوتی ڈیکوریٹ<small>DUBAI CHONOTI DECORATE</small></div>
-<nav><a href="#home">ہوم</a><a href="#services">سروسز</a><a href="#about">ہمارے بارے میں</a><a href="#gallery">گيلری</a><a href="#contact">رابطہ</a></nav>
-</header>
 
-<section class="hero" id="home">
-<div>
-<h1>دبئی چنوتی ڈیکوریٹ</h1>
-<p>گھروں، دکانوں، دفاتر اور کمرشل عمارتوں کے لیے خوبصورت اور معیاری انٹیریئر و سیلنگ ڈیزائن۔</p>
-<p><strong>معیاری کام کا سفر — 1967 سے</strong></p>
-<a class="btn" href="#contact">ہم سے رابطہ کریں</a>
-</div>
-</section>
+    <header>
+        <h1>Dubai Challenge Decor</h1>
+        <p>Premium Interior Decoration & False Ceiling Services</p>
+    </header>
 
-<section id="services">
-<h2>ہماری خدمات</h2>
-<div class="cards">
-<div class="card"><div class="icon">🏠</div><h3>POP / False Ceiling</h3><p>جدید اور خوبصورت فالز سیلنگ ڈیزائن اور فنشنگ۔</p></div>
-<div class="card"><div class="icon">▦</div><h3>Gypsum Board</h3><p>گپسم بورڈ سے جدید سیلنگ اور وال ڈیزائن۔</p></div>
-<div class="card"><div class="icon">🧱</div><h3>Wallpaper</h3><p>گھروں، دفاتر اور دکانوں کے لیے خوبصورت وال پیپر ڈیزائن۔</p></div>
-<div class="card"><div class="icon">✨</div><h3>Wall Designing</h3><p>دیواروں کی تخلیقی ڈیزائننگ اور خوبصورت فنشنگ۔</p></div>
-<div class="card"><div class="icon">🏢</div><h3>Commercial Projects</h3><p>دکانوں، دفاتر اور بڑے کمرشل پروجیکٹس کا کام۔</p></div>
-<div class="card"><div class="icon">🎨</div><h3>Interior Decoration</h3><p>مکمل انٹیریئر اور سیلنگ ڈیکوریشن کے حل۔</p></div>
-</div>
-</section>
+    <div class="container">
+        <!-- About Section -->
+        <div class="about-section">
+            <h2>About Our Business</h2>
+            <p>
+                Dubai Challenge Decor is your trusted choice for professional POP False Ceiling, Gypsum Board, and Wallpaper installation. 
+                If you are searching from <strong>Pakistan</strong>, we provide the best local <strong>POP Ceiling Design (پی او پی فالس سیلنگ)</strong>, <strong>Gypsum Board Roof Work</strong>, and interior decoration services.
+            </p>
+            <p>
+                For international clients searching from <strong>Europe and the UK</strong>, we specialize in high-quality <strong>Plasterboard, Drywall, Drylining, Suspended Ceilings, and Dropped Ceilings</strong> [1.3.4، 1.4.1، 1.4.3]. 
+                For clients in <strong>Arab and Gulf countries</strong>, we offer premium modern <strong>Gypsum Decoration (ديكورات جبس)</strong> and false ceilings <strong>(سقف مستعار / سقف كاذب)</strong> [1.1.4، 1.4.2]. 
+                With rich experience since <strong>1997</strong>, we deliver beautiful and durable craftsmanship worldwide.
+            </p>
+        </div>
 
-<section class="about" id="about">
-<h2>ہمارے بارے میں</h2>
-<div class="intro">
-<p><strong>دبئی چنوتی ڈیکوریٹ</strong> معیاری ڈیکوریشن، POP/فالز سیلنگ، گپسم بورڈ، وال پیپر اور وال ڈیزائننگ کے کام کے لیے آپ کا قابلِ اعتماد انتخاب ہے۔</p>
-<p>ہم گھروں، دکانوں، دفاتر اور بڑے کمرشل پروجیکٹس کے لیے خوبصورت، جدید اور مضبوط کام فراہم کرتے ہیں۔ ہمارے کام کا تجربہ 1967 سے جاری ہے۔</p>
-<p><strong>مقام: شاہ لطیف ٹاؤن، کراچی</strong></p>
-</div>
-</section>
+        <!-- Major Projects Section -->
+        <div class="project-section">
+            <h2>Our Major Projects (ہمارے بڑے پروجیکٹس)</h2>
+            <p>We take pride in delivering top-class gypsum board installation and interior decoration for elite residential and mega commercial buildings, including:</p>
+            <ul class="project-list">
+                <li><strong>Bahria Town Projects:</strong> Luxury villas, premium apartments, and high-end retail shops.</li>
+                <li><strong>DHA (Defence Housing Authority):</strong> Modern home interiors, false ceilings, and corporate office renovations.</li>
+                <li><strong>Commercial Malls & Towers:</strong> Large-scale suspended ceiling and drywall partition installations for plazas and shopping centers.</li>
+                <li><strong>Residential & Corporate Buildings:</strong> High-quality gypsum decoration and drylining work across Karachi and international locations.</li>
+            </ul>
+        </div>
 
-<section id="gallery">
-<h2>ہمارے کام کی جھلکیاں</h2>
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80" alt="Interior design">
-<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80" alt="Ceiling interior">
-<img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80" alt="Modern interior">
-<img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80" alt="Interior decoration">
-</div>
-</section>
+        <!-- Work Gallery Section -->
+        <div class="gallery-section">
+            <h2>Our Work Gallery (ہمارا کام)</h2>
+            <p style="margin-bottom: 10px;">ہمارے پروفیشنل اور خوبصورت کام کی چند مثالیں:</p>
+            <div class="gallery-grid">
+                <!-- تصویر نمبر 1: جپسم بورڈ انسٹالیشن کام کے دوران -->
+                <div class="gallery-item">
+                    <img src="https://knauf.com" alt="Gypsum Board Installation Work">
+                    <div class="img-caption">جپسم بورڈ انسٹالیشن (کام کے دوران)</div>
+                </div>
+                <!-- تصویر نمبر 2: خوبصورت بنگلے کا لیونگ روم ڈیزائن -->
+                <div class="gallery-item">
+                    <img src="https://pinimg.com" alt="Luxury Villa Living Room Ceiling">
+                    <div class="img-caption">لگری بنگلہ لیونگ روم فالس سیلنگ</div>
+                </div>
+                <!-- تصویر نمبر 3: جدید لگژری بیڈ روم سیلنگ ڈیزائن -->
+                <div class="gallery-item">
+                    <img src="https://pinimg.com" alt="Modern Luxury Bedroom POP Design">
+                    <div class="img-caption">جدید بیڈ روم پی او پی ڈیزائن</div>
+                </div>
+            </div>
+        </div>
 
-<section class="contact" id="contact">
-<h2>آج ہی رابطہ کریں</h2>
-<p>اپنے گھر، دکان یا دفتر کو جدید اور خوبصورت انداز دیں۔</p>
-<p>📍 شاہ لطیف ٹاؤن، کراچی</p>
-<p>📞 اپنا فون نمبر یہاں درج کریں</p>
-<a class="btn" href="tel:">Call Now</a>
-</section>
+        <!-- Contact Box -->
+        <div class="contact-box">
+            <p style="font-weight: bold; color: #ffeb3b; font-size: 1.3rem; margin-bottom: 15px;">📞 Contact Us / Order Now:</p>
+            <p><strong>Call Phone:</strong> +92 312 4490907</p>
+            <p><strong>WhatsApp:</strong> +92 300 3136506</p>
+        </div>
+    </div>
 
-<div class="footer">© 2026 Dubai Chonoti Decorate — All Rights Reserved</div>
+    <footer>
+        <p>&copy; 2026 Dubai Challenge Decor. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
